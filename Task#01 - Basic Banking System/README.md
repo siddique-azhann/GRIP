@@ -1,10 +1,10 @@
-# Sparks Foundation - Basic Banking System
+# Task#01 - Basic Banking System
 
 ## Index
-- [Description](#Description)
-- First Time Installation
-- How To Run
-- Screenshort
+- [Description](##Description)
+- [Installation](##Installation)
+- [How to Run](##How to Run)
+- [Screenshot](##Screenshot)
 
 ## Description
 - This a Internship project by Sparks Foundation.
@@ -12,10 +12,10 @@
 - Details of Customers are maintained as `Name`, `Email`, `Amount` are fields.
 - Transaction is done through PDO, If some Error occured while Transaction changes made to table is Rollback(Reverted).  
 
-## First Time Installation
+## Installation
 - Clone the Repository.
 - Make sure you have installed XAMP on your computer.
-- Copy this folder(Sparks-Foundation) to XAMP installation Directory and then inside htdocs folder.
+- Copy this folder(Task#01) to XAMP installation Directory and then inside htdocs folder.
 
 ```
 For Example
@@ -36,16 +36,16 @@ Transaction Table Created Successfully.
 ```
 - This means that you have created a database name bank, a table name customers also added 10 entries to table and finally creating a table name Transaction.
 
-## How To Run
-- After following steps above(First Time Installation).
+## How to Run
+- After following steps above(##Installation).
 - Make Sure XAMP is active with Apache and MySQL Server Enabled.
 - Open Browser Enter the following URL:
 ```
-http://localhost/Sparks-Foundation/
+http://localhost/Task#01/
 ```
 OR
 ```
-http://localhost/Sparks-Foundation/index.php
+http://localhost/Task#01/index.php
 ```
 - You will land to Homepage of Money Bank Website.
 - Click On `View all Customer` from Navigation OR `Get Started` button for viewing detail of all Customers.
